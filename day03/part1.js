@@ -17,8 +17,8 @@ const gammaRateBits = [];
 const epsilonRateBits = [];
 
 sumBits.forEach(sum => {
-    gammaRateBits.push((sum > parsedData.length/2) ? "1" : "0");
-    epsilonRateBits.push((sum < parsedData.length/2) ? "1" : "0");
+    gammaRateBits.push((sum > parsedData.length / 2) ? "1" : "0");
+    epsilonRateBits.push((sum < parsedData.length / 2) ? "1" : "0");
 })
 
 const gammaRate = parseInt(gammaRateBits.join(""), 2)

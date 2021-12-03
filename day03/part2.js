@@ -36,7 +36,7 @@ function findRating(condition) {
     }
 }
 
-const oxygenRating = parseInt(findRating((x, y) => x >= y/2), 2)
-const co2Rating = parseInt(findRating((x, y) => x < y/2), 2)
+const oxygenRating = parseInt(findRating((x, y) => x >= y / 2), 2)
+const co2Rating = parseInt(findRating((x, y) => x < y / 2), 2)
 
 console.log(oxygenRating * co2Rating)

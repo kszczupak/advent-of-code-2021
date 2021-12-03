@@ -9,7 +9,7 @@ let verticalPosition = 0
 data.split("\n").forEach(values => {
     [dir, rawStep] = values.split(" ");
     const step = parseInt(rawStep);
-    switch (dir){
+    switch (dir) {
         case "forward":
             horizontalPosition += step;
             break;

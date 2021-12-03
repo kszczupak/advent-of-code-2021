@@ -6,7 +6,7 @@ let increased = 0;
 let previousValue = null;
 
 data.split("\n").forEach(value => {
-    if (previousValue != null && (value - previousValue) > 0)  {
+    if (previousValue != null && (value - previousValue) > 0) {
         increased++;
     }
     previousValue = value;
